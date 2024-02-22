@@ -1,12 +1,14 @@
 {
   "name": "3dfolio",
+  "homepage": "http://sheikcoder.wuaze.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "vercel": "NPM_CONFIG_LEGACY_PEER_DEPS=true vercel"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
